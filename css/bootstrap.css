@@ -123,9 +123,10 @@ html {
 }
 
 body {
-  /*background-image: url("../img/background.jpg") !important;*/
+  /*background-image: 5E2605url("../img/background.jpg") !important;*/
   margin: 0;
-  background-color: #5E2605 !important;
+  
+  background-color: #fff !important;
 
 }
 
@@ -151,8 +152,9 @@ body {
 .container {
 
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #fff;
-  border: 4px;
+  border:1px solid #cccccc;
   border-radius: 10px;
   opacity: 1;
 }
