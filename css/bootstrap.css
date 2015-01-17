@@ -127,7 +127,10 @@ body {
   /*background-image: 501507 5E2605url("../img/background.jpg") !important;*/
   margin: 0;
   
-  background-color: #666666 !important;
+  /*background-color: #666666 !important;*/
+
+  background-image: url("../img/kwad.jpg");
+  background-repeat: repeat;
 
 }
 
@@ -160,6 +163,10 @@ body {
   /*border:1px solid #cccccc;*/
   border-radius: 10px;
   opacity: 1;
+
+  -webkit-box-shadow:0px 5px 10px #1c1c1c;
+  -moz-box-shadow:0px 5px 10px #1c1c1c;
+  box-shadow:0px 5px 10px #1c1c1c;
 }
 
 .container_trans {
@@ -1444,8 +1451,8 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 16px;
-  font-style: bold;
-  color: #7D1935;
+  
+  color: #4A96AD;
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
@@ -2976,7 +2983,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-default:active,
@@ -3011,7 +3018,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-primary:hover,
@@ -3056,7 +3063,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-success:hover,
@@ -3101,7 +3108,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-info:hover,
@@ -3146,7 +3153,7 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-warning:hover,
@@ -3191,7 +3198,7 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #fff;
-  background-color: #7D1935;
+  background-color: #656565;
   border-color: #fff;
 }
 .btn-danger:hover,
@@ -3294,8 +3301,8 @@ fieldset[disabled] .btn-link:focus {
 
 .btn-xs:hover {
 
-  background-color: #fff;
-  color: #5E2605;
+  background-color: #656565;
+  color: #fff;
   border: 1px;
 }
 
