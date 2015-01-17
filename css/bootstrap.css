@@ -1442,6 +1442,8 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 16px;
+  font-style: bold;
+  color: #7D1935;
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
