@@ -124,10 +124,10 @@ html {
 }
 
 body {
-  /*background-image: 5E2605url("../img/background.jpg") !important;*/
+  /*background-image: 501507 5E2605url("../img/background.jpg") !important;*/
   margin: 0;
   
-  background-color: #501507 !important;
+  background-color: #fff !important;
 
 }
 
@@ -152,10 +152,12 @@ body {
 
 .container {
 
+/*background-color: #F5F3EE;*/
+
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #F5F3EE;
-  border:1px solid #cccccc;
+  background-color: #fff;
+  /*border:1px solid #cccccc;*/
   border-radius: 10px;
   opacity: 1;
 }
