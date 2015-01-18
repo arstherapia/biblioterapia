@@ -49,7 +49,7 @@ html {
   margin-top: 0px;
 }
 .tabbable-line > .nav-tabs > li.active {
-  border-bottom: 4px solid #f3565d;
+  border-bottom: 4px solid #4A96AD;
   position: relative;
 }
 .tabbable-line > .nav-tabs > li.active > a {
@@ -1451,7 +1451,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 16px;
-  
+  font-weight: italic bold !important;
   color: #4A96AD;
   border-left: 5px solid #eee;
 }
